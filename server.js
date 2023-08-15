@@ -23,7 +23,7 @@ app.post("/create_preference", (req, res) => {
       },
     ],
     back_urls: {
-      success: "http://localhost:5173",
+      success: "http://localhost:5173/boleta",
       failure: "http://localhost:5173",
       pending: "",
     },
